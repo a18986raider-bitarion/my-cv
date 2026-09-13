@@ -1,0 +1,97 @@
+/* override */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #navbar {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .nav-name {
+        display: none;
+    }
+
+
+    .target,
+    .personal-info {
+        padding: 60px 50px;
+    }
+    #about h2 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+    #about p {
+        font-size: 15px;
+    }
+
+
+    #job-info {
+        width: auto;
+        margin: 40px 40px;
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .info-box {
+        padding: 25px;
+    }
+    .box-title h2 {
+        font-size: 28px;
+    }
+    .box-title i {
+        font-size: 35px;
+    }
+
+
+    #certificate {
+        width: auto;
+        margin: 50px 40px;
+    }
+    .certificate-item {
+        gap: 20px;
+    }
+    .certificate-item img {
+        width: 45%;
+        height: 45%;
+    }
+    .certificate-content {
+        flex: 1;
+    }
+    .certificate-content h3 {
+        font-size: 16px;
+    }
+
+
+    #project {
+        width: auto;
+        margin: 50px 40px;
+    }
+    .project-grid {
+        gap: 20px;
+    }
+    .project-info {
+        gap: 10px;
+        padding: 12px;
+        flex-wrap: wrap;
+    }
+    .project-info span {
+        font-size: 13px;
+    }
+    .year {
+        padding: 5px 12px;
+    }
+    td {
+        padding: 10px;
+        font-size: 14px;
+    }
+    td:first-child {
+        width: 70px;
+    }
+
+
+    .social-links {
+        gap: 30px;
+    }
+    .social-links i {
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+}
