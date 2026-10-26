@@ -64,7 +64,7 @@
         margin: 50px 40px;
     }
     .project-grid {
-        gap: 20px;
+        /* bootstrap */
     }
     .project-info {
         gap: 10px;
