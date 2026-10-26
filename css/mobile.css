@@ -185,7 +185,7 @@
         margin-bottom: 30px;
     }
     .project-grid {
-        display: block;
+        /* bootstrap */
     }
     .project-card {
         margin-bottom: 30px;
